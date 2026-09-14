@@ -1,0 +1,43 @@
+{
+  "name": "websales-ai",
+  "version": "1.0.0",
+  "description": "SaaS de IA para vender sites para pequenas empresas",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "zustand": "^4.3.7",
+    "react-hook-form": "^7.42.0",
+    "zod": "^3.21.4",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.4",
+    "lucide-react": "^0.263.1",
+    "stripe": "^12.1.1",
+    "@anthropic-ai/sdk": "^0.9.1",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^20.1.0",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/node": "^19.15.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "@vitejs/plugin-react": "^4.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.41.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6"
+  }
+}

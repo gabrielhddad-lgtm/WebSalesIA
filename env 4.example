@@ -1,0 +1,27 @@
+# AUTENTICAÇÃO
+VITE_APP_NAME=WebSales AI
+VITE_APP_URL=http://localhost:5173
+
+# CLAUDE API (Anthropic)
+VITE_CLAUDE_API_KEY=sk-ant-xxxxxxxxxxxxx
+
+# STRIPE
+VITE_STRIPE_PUBLIC_KEY=pk_test_xxxxxxxxxxxxx
+STRIPE_SECRET_KEY=sk_test_xxxxxxxxxxxxx
+STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxx
+
+# SUPABASE (Banco de Dados)
+VITE_SUPABASE_URL=https://xxxxx.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJxxxxxx
+
+# HUNTER.IO (Email Finder)
+VITE_HUNTER_API_KEY=xxxxxxxxxxxxx
+
+# VERCEL DEPLOYMENT
+VERCEL_ENV=development
+NODE_ENV=development
+
+# PREÇOS (Planos)
+VITE_PLAN_FREE_LIMIT=10
+VITE_PLAN_PRO_PRICE=9900
+VITE_PLAN_PRO_MONTHLY_SEARCHES=500
